@@ -1,13 +1,33 @@
-h1 {
-  color: brown;
+h1,
+h2 {
+  color: lightsalmon;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+  text-align: center;
 }
 img {
   display: flex;
-  max-width: 100%;
-  height: auto;
-  margin: 50px;
+  justify-content: center;
+  max-width: 20%;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-shadow: 5px 5px;
 }
-h2 {
-  color: purple;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+a {
+  display: block;
+  box-shadow: 10px 10px;
+  padding: 10px;
+  margin: auto;
+  box-shadow: 2px;
+  text-decoration: none;
+  background-color: lightsalmon;
+  text-align: center;
+  color: chartreuse;
+  border-radius: 20px;
+}
+a:hover {
+  cursor: pointer;
+  color: black;
+  transition: ease-in-out;
 }
