@@ -1,0 +1,13 @@
+h1 {
+  color: brown;
+}
+img {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  margin: 50px;
+}
+h2 {
+  color: purple;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
